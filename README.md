@@ -21,3 +21,11 @@ Segundo a OMC (Organização mundial de saúde) 1 em cada 11 pessoas no mundo po
 
 **Objetivo**
 Com base nas informações do conjunto de dados, o objetivo do trabalho é tentar prever com maior assertividade se uma possoa possui ou não pré disposição para o diabetes. A identificação precoce de diabetes é extremamente importante pois, auxilia o diabético a manter um nível bom de glicose podendo evitar consequências graves como, infarto, derrame cerebral ou cegueira.
+
+**Justificativa para uso dos algorítimos**
+A árvore de decisão é uma técnica estatística de treinamento supervisionado utilizada na classificação e previsão dos dados. É um modelo que usa a ideia de dividir para conquistar, em outras palavras, decompõe um problema maior em sub-problemas de ordem mais simples, para de forma recursiva se consiga a resolução do problema como um todo. É uma técnica bastante utilizada em diagnóstico médico e, por isso foi escolhida para ser utilizada nesse trabalho.
+
+O Naive Bayes também é um algorítimo classificador probabilístico muito eficiente e de simples implementação. Apenas com uma pequena quantidade de dados é possível obter classificações com uma boa previsão. Essa técnica desconsidera completamente a correlação entre variáveis e portanto, bem diferente da árvore de decisão. Por esse motivo foi escolhido para ser utilizada nesse trabalho.
+
+**Análise dos resultados**
+Neste exercício foram utilizados dois algoritmos, a arvore de decisão e o algoritmo de Naive Bayes. Para o problema de diagnóstico da diabete a arvore de decisão apresentou um melhor resultado alcançando 100% de acurácia contra 65,4% do Naive Bayes. Um ponto importante, é que a tratativa dos dados para ambos os algoritmos foi exatamente a mesma, como vimos ao longo da disciplina se forem aplicados métodos diferentes para cada algoritmo o resultado pode ser afetado, porém isso não foi realizado no trabalho em questão.
